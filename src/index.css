@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Body gradient background */
+body {
+  @apply bg-gradient-to-br from-yellow-300 via-pink-300 to-purple-400;
+  font-family: 'Helvetica', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Optional: make input/textarea text dark for better readability */
+input, textarea {
+  @apply text-gray-800;
+}

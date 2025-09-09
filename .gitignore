@@ -1,0 +1,48 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+############################
+# React (Frontend)
+############################
+/node_modules
+/.pnp
+.pnp.js
+/coverage
+/build
+
+# Env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+############################
+# Python (Flask Backend)
+############################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+*.log
+
+############################
+# Java (Spring Boot Backend)
+############################
+/target/
+*.class
+*.jar
+*.war
+*.iml
+.idea/
+*.log
+
+############################
+# OS / General
+############################
+.DS_Store
+Thumbs.db
